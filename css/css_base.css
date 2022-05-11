@@ -1,0 +1,66 @@
+body
+{
+    background-color: whitesmoke  ;
+}
+.taille_titre
+{
+  font-size : 30px;
+}
+.center 
+{
+    text-align: center;
+}
+
+.navigation
+{
+    padding: 0; margin: 0;
+}
+.navigation li 
+{
+    display: inline;
+    list-style: none; /* nécessaire pour IE7 */
+    color: black;
+}
+.navigation a {
+	display:inline-block;
+    margin: 0 30px;
+    color: white;
+    text-decoration: red;
+}
+.vertical 
+{ 
+    border-left:3px solid red;
+    height:100%;
+    text-align: left;
+}
+.champ
+{
+    height: 100%;
+    width: 100%;
+}
+.taille_image
+{
+    width: 100%;
+    height: auto;
+}
+.d1
+{
+    width: 700px;
+    height: 700px;
+    margin: 50px auto;
+    box-shadow: 0px 15px 10px -5px #777;
+    background-color: #EDEDED;
+    background-size: contain;
+    animation: fondu 15s ease-in-out infinite both;
+}
+.conteneur
+{
+    max-width: 576px;
+    margin: 50px auto;
+}
+@keyframes fondu{
+    0%{background-image: url("F:/cours BTS/Projet Slam/image/margarita.jpeg");}
+    33.33%{background-image: url("F:/cours BTS/Projet Slam/image/sofa.jpg");}
+    66.67%{background-image: url("F:/cours BTS/Projet Slam/image/sidecar.jpg");}
+    100%{background-image: url("F:/cours BTS/Projet Slam/image/cointreau_the.jpg");}
+}
